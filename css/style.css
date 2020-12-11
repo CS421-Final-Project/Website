@@ -104,11 +104,6 @@ nav li a:hover:not(.active) {
 	margin-bottom: 15px;
 }
 
-small p{
-	text-align: center;
-	width: auto;
-	font-size: 75%;
-}
 .about {
 	width: auto;
 	position: relative;
