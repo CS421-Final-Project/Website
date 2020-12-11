@@ -8,16 +8,26 @@ html {
 	width: 60%;
 	margin: auto;
 }
-
-article {
-	min-height: 100vh;
+.wrapper{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
 }
-
-article p{
-	word-spacing: 5px;
-	line-height: 1.6;
+.top5{
+	padding-top: 10px;
+	width: 280%;
+	grid-column: 1;
+	grid-row: 1;
 }
-
+.pie{
+	padding-left: 140px;
+	width: 280%;
+	grid-column: 2;
+	grid-row: 1;
+}
+img{
+	width: 100%;
+}
 h1 {
 	text-align: center;
 	font-family: 'Enriqueta', serif;
@@ -53,8 +63,9 @@ nav li a:hover:not(.active) {
 }
 
 #page {
-	width: 60%;
+	width: 70%;
 	margin: auto;
+	padding-bottom: 20px;
 	background-color: white;
 }
 
@@ -81,17 +92,4 @@ nav li a:hover:not(.active) {
 	position: relative;
 	padding: 15px;
 	margin-bottom: 15px;
-}
-
-.about {
-	width: auto;
-	position: relative;
-	padding: 15px;
-	margin-top: 15px;
-}
-
-small p{
-	text-align: center;
-	width: auto;
-	font-size: 75%;
 }
