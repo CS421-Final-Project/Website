@@ -4,11 +4,6 @@ html {
 	font-family: 'Georgia';
 }
 
-#page {
-	width: 60%;
-	margin: auto;
-}
-
 article {
 	min-height: 100vh;
 }
