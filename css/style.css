@@ -118,3 +118,18 @@ nav li a:hover:not(.active) {
 	padding: 15px;
 	margin-top: 15px;
 }
+
+.guideL {
+	width: 300px;
+	position: relative;
+	padding: 15px;
+	margin-top: 15px;
+}
+
+.guideR {
+	width: 300px;
+	position: relative;
+	padding: 15px;
+	margin-top: 15px;
+	float: right;
+}
