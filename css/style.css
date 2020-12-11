@@ -8,6 +8,16 @@ html {
 	width: 60%;
 	margin: auto;
 }
+
+article {
+	min-height: 100vh;
+}
+
+article p{
+	word-spacing: 5px;
+	line-height: 1.6;
+}
+
 .wrapper{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
